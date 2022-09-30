@@ -1,0 +1,411 @@
+--Made Bye FazzaRBLX        Subscribe For Next Update Script
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local LT2 = Instance.new("ScreenGui")
+local LoginFrame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local User = Instance.new("TextBox")
+local pass = Instance.new("TextBox")
+local Login = Instance.new("TextButton")
+local Creadits = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local MainFrame = Instance.new("Frame")
+local Title_2 = Instance.new("TextLabel")
+local palm = Instance.new("TextButton")
+local bobsshack = Instance.new("TextButton")
+local woodrUs = Instance.new("TextButton")
+local volcano = Instance.new("TextButton")
+local swamp = Instance.new("TextButton")
+local strangeman = Instance.new("TextButton")
+local spawn = Instance.new("TextButton")
+local shrine = Instance.new("TextButton")
+local lodge = Instance.new("TextButton")
+local linkslogic = Instance.new("TextButton")
+local greenbox = Instance.new("TextButton")
+local fancy = Instance.new("TextButton")
+local endtimes = Instance.new("TextButton")
+local dropoff = Instance.new("TextButton")
+local den = Instance.new("TextButton")
+local cave = Instance.new("TextButton")
+local boxedcars = Instance.new("TextButton")
+local yourplot = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+--Properties:
+LT2.Name = "LT2"
+LT2.Parent = game.CoreGui
+ 
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = LT2
+LoginFrame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+LoginFrame.Position = UDim2.new(0.344370782, 0, 0.207667753, 0)
+LoginFrame.Size = UDim2.new(0, 335, 0, 326)
+ 
+Title.Name = "Title"
+Title.Parent = LoginFrame
+Title.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+Title.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+Title.Size = UDim2.new(0, 335, 0, 58)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "LOGIN"
+Title.TextColor3 = Color3.new(0.333333, 1, 1)
+Title.TextScaled = true
+Title.TextSize = 14
+Title.TextWrapped = true
+ 
+User.Name = "User"
+User.Parent = LoginFrame
+User.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+User.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+User.Position = UDim2.new(0.179104477, 0, 0.386503071, 0)
+User.Size = UDim2.new(0, 214, 0, 39)
+User.Font = Enum.Font.SourceSansBold
+User.Text = "FazzaRBLX"
+User.TextColor3 = Color3.new(0.333333, 1, 1)
+User.TextSize = 14
+User.TextWrapped = true
+User.TextXAlignment = Enum.TextXAlignment.Left
+ 
+pass.Name = "pass"
+pass.Parent = LoginFrame
+pass.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+pass.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+pass.Position = UDim2.new(0.179104447, 0, 0.564417183, 0)
+pass.Size = UDim2.new(0, 214, 0, 39)
+pass.Font = Enum.Font.SourceSansBold
+pass.Text = "RobloxUser"
+pass.TextColor3 = Color3.new(0.333333, 1, 1)
+pass.TextSize = 14
+pass.TextXAlignment = Enum.TextXAlignment.Left
+ 
+Login.Name = "Login"
+Login.Parent = LoginFrame
+Login.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+Login.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+Login.Position = UDim2.new(0.304477632, 0, 0.73619628, 0)
+Login.Size = UDim2.new(0, 129, 0, 50)
+Login.Font = Enum.Font.SourceSansBold
+Login.Text = "LOGIN"
+Login.TextColor3 = Color3.new(0.333333, 1, 1)
+Login.TextScaled = true
+Login.TextSize = 14
+Login.TextWrapped = true
+Login.MouseButton1Down:connect(function() 
+LoginFrame.Visible = false
+MainFrame.Visible = true 
+end)
+ 
+Creadits.Name = "Creadits"
+Creadits.Parent = LoginFrame
+Creadits.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Creadits.BorderColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Creadits.Position = UDim2.new(0.0417910442, 0, 0.944785297, 0)
+Creadits.Size = UDim2.new(0, 500, 0, 18)
+Creadits.Font = Enum.Font.SourceSans
+Creadits.Text = "Made By noob_the0one"
+Creadits.TextColor3 = Color3.new(0.333333, 1, 1)
+Creadits.TextSize = 25
+Creadits.TextXAlignment = Enum.TextXAlignment.Left
+ 
+TextButton.Parent = LoginFrame
+TextButton.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+TextButton.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+TextButton.Position = UDim2.new(0.841791034, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 53, 0, 58)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.new(1, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14
+TextButton.TextWrapped = true
+ 
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = LT2
+MainFrame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+MainFrame.BorderColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+MainFrame.Position = UDim2.new(0.253822625, 0, 0.0447284356, 0)
+MainFrame.Size = UDim2.new(0, 580, 0, 553)
+MainFrame.Visible = false
+ 
+Title_2.Name = "Title"
+Title_2.Parent = MainFrame
+Title_2.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+Title_2.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+Title_2.Size = UDim2.new(0, 580, 0, 58)
+Title_2.Font = Enum.Font.SourceSansBold
+Title_2.Text = "Noob_the0one Gui"
+Title_2.TextColor3 = Color3.new(0.333333, 1, 1)
+Title_2.TextScaled = true
+Title_2.TextSize = 10
+Title_2.TextWrapped = true
+ 
+palm.Name = "palm"
+palm.Parent = MainFrame
+palm.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+palm.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+palm.Position = UDim2.new(0.0430379733, 0, 0.173343152, 0)
+palm.Size = UDim2.new(0, 169, 0, 50)
+palm.Font = Enum.Font.SourceSansBold
+palm.Text = "Palm"
+palm.TextColor3 = Color3.new(0.333333, 1, 1)
+palm.TextSize = 14
+palm.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(2570, -5, -32))
+end)
+ 
+bobsshack.Name = "bobsshack"
+bobsshack.Parent = MainFrame
+bobsshack.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+bobsshack.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+bobsshack.Position = UDim2.new(0.371191561, 0, 0.173343152, 0)
+bobsshack.Size = UDim2.new(0, 169, 0, 50)
+bobsshack.Font = Enum.Font.SourceSansBold
+bobsshack.Text = "BobsShack"
+bobsshack.TextColor3 = Color3.new(0.333333, 1, 1)
+bobsshack.TextSize = 14
+bobsshack.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(259, 8, -2542))
+end)
+ 
+woodrUs.Name = "woodrUs"
+woodrUs.Parent = MainFrame
+woodrUs.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+woodrUs.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+woodrUs.Position = UDim2.new(0.043037951, 0, 0.300277501, 0)
+woodrUs.Size = UDim2.new(0, 169, 0, 50)
+woodrUs.Font = Enum.Font.SourceSansBold
+woodrUs.Text = "WoodRUs"
+woodrUs.TextColor3 = Color3.new(0.333333, 1, 1)
+woodrUs.TextSize = 14
+woodrUs.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(251, 2, 57))
+end)
+ 
+volcano.Name = "volcano"
+volcano.Parent = MainFrame
+volcano.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+volcano.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+volcano.Position = UDim2.new(0.371191502, 0, 0.300277501, 0)
+volcano.Size = UDim2.new(0, 169, 0, 50)
+volcano.Font = Enum.Font.SourceSansBold
+volcano.Text = "Volcano"
+volcano.TextColor3 = Color3.new(0.333333, 1, 1)
+volcano.TextSize = 14
+volcano.MouseButton1Down:connect(function() 
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1585, 622, 1140)) 
+end)
+ 
+swamp.Name = "swamp"
+swamp.Parent = MainFrame
+swamp.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+swamp.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+swamp.Position = UDim2.new(0.0430378914, 0, 0.428081781, 0)
+swamp.Size = UDim2.new(0, 169, 0, 50)
+swamp.Font = Enum.Font.SourceSansBold
+swamp.Text = "Swamp"
+swamp.TextColor3 = Color3.new(0.333333, 1, 1)
+swamp.TextSize = 14
+swamp.MouseButton1Down:connect(function() 
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1209, 132, -801))
+end)
+ 
+strangeman.Name = "strangeman"
+strangeman.Parent = MainFrame
+strangeman.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+strangeman.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+strangeman.Position = UDim2.new(0.371191502, 0, 0.428081781, 0)
+strangeman.Size = UDim2.new(0, 169, 0, 50)
+strangeman.Font = Enum.Font.SourceSansBold
+strangeman.Text = "StrangeMan"
+strangeman.TextColor3 = Color3.new(0.333333, 1, 1)
+strangeman.TextSize = 14
+strangeman.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1061, 16, 1130))
+end)
+ 
+spawn.Name = "spawn"
+spawn.Parent = MainFrame
+spawn.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+spawn.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+spawn.Position = UDim2.new(0.0430378914, 0, 0.566321433, 0)
+spawn.Size = UDim2.new(0, 169, 0, 50)
+spawn.Font = Enum.Font.SourceSansBold
+spawn.Text = "Spawn"
+spawn.TextColor3 = Color3.new(0.333333, 1, 1)
+spawn.TextSize = 14
+spawn.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(155, 3, 74))
+end)
+ 
+shrine.Name = "shrine"
+shrine.Parent = MainFrame
+shrine.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+shrine.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+shrine.Position = UDim2.new(0.371191502, 0, 0.566321433, 0)
+shrine.Size = UDim2.new(0, 169, 0, 50)
+shrine.Font = Enum.Font.SourceSansBold
+shrine.Text = "Shrine"
+shrine.TextColor3 = Color3.new(0.333333, 1, 1)
+shrine.TextSize = 14
+shrine.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1606, 195, 929)) 
+end)
+ 
+lodge.Name = "lodge"
+lodge.Parent = MainFrame
+lodge.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+lodge.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+lodge.Position = UDim2.new(0.69188118, 0, 0.172897607, 0)
+lodge.Size = UDim2.new(0, 169, 0, 50)
+lodge.Font = Enum.Font.SourceSansBold
+lodge.Text = "Lodge"
+lodge.TextColor3 = Color3.new(0.333333, 1, 1)
+lodge.TextSize = 14
+lodge.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1243, 63, 2305)) 
+end)
+ 
+linkslogic.Name = "linkslogic"
+linkslogic.Parent = MainFrame
+linkslogic.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+linkslogic.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+linkslogic.Position = UDim2.new(0.69188118, 0, 0.300639629, 0)
+linkslogic.Size = UDim2.new(0, 169, 0, 50)
+linkslogic.Font = Enum.Font.SourceSansBold
+linkslogic.Text = "LinksLogic"
+linkslogic.TextColor3 = Color3.new(0.333333, 1, 1)
+linkslogic.TextSize = 14
+linkslogic.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(4606, 7, -779))
+end)
+ 
+greenbox.Name = "greenbox"
+greenbox.Parent = MainFrame
+greenbox.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+greenbox.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+greenbox.Position = UDim2.new(0.69188118, 0, 0.427784711, 0)
+greenbox.Size = UDim2.new(0, 169, 0, 50)
+greenbox.Font = Enum.Font.SourceSansBold
+greenbox.Text = "GreenBox"
+greenbox.TextColor3 = Color3.new(0.333333, 1, 1)
+greenbox.TextSize = 14
+greenbox.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1675, 348, 1476))
+end)
+ 
+ 
+fancy.Name = "fancy"
+fancy.Parent = MainFrame
+fancy.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+fancy.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+fancy.Position = UDim2.new(0.69188118, 0, 0.566321492, 0)
+fancy.Size = UDim2.new(0, 169, 0, 50)
+fancy.Font = Enum.Font.SourceSansBold
+fancy.Text = "Fancy"
+fancy.TextColor3 = Color3.new(0.333333, 1, 1)
+fancy.TextSize = 14
+fancy.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(491, 3, -1719))
+end)
+ 
+endtimes.Name = "endtimes"
+endtimes.Parent = MainFrame
+endtimes.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+endtimes.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+endtimes.Position = UDim2.new(0.0436053276, 0, 0.705561996, 0)
+endtimes.Size = UDim2.new(0, 169, 0, 50)
+endtimes.Font = Enum.Font.SourceSansBold
+endtimes.Text = "EndTimes"
+endtimes.TextColor3 = Color3.new(0.333333, 1, 1)
+endtimes.TextSize = 14
+endtimes.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(113, -213, -950))
+end)
+ 
+ 
+dropoff.Name = "dropoff"
+dropoff.Parent = MainFrame
+dropoff.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+dropoff.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+dropoff.Position = UDim2.new(0.371191531, 0, 0.705561996, 0)
+dropoff.Size = UDim2.new(0, 169, 0, 50)
+dropoff.Font = Enum.Font.SourceSansBold
+dropoff.Text = "Dropoff"
+dropoff.TextColor3 = Color3.new(0.333333, 1, 1)
+dropoff.TextSize = 14
+dropoff.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(314, -2, 123))
+end)
+ 
+den.Name = "den"
+den.Parent = MainFrame
+den.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+den.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+den.Position = UDim2.new(0.69188118, 0, 0.705561996, 0)
+den.Size = UDim2.new(0, 169, 0, 50)
+den.Font = Enum.Font.SourceSansBold
+den.Text = "Den"
+den.TextColor3 = Color3.new(0.333333, 1, 1)
+den.TextSize = 14
+den.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(331, 45, 1941))
+end)
+ 
+cave.Name = "cave"
+cave.Parent = MainFrame
+cave.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+cave.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+cave.Position = UDim2.new(0.0436053276, 0, 0.833952606, 0)
+cave.Size = UDim2.new(0, 169, 0, 50)
+cave.Font = Enum.Font.SourceSansBold
+cave.Text = "Cave"
+cave.TextColor3 = Color3.new(0.333333, 1, 1)
+cave.TextSize = 14
+cave.MouseButton1Down:connect(function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3581, -179, 430))
+end)
+ 
+boxedcars.Name = "boxedcars"
+boxedcars.Parent = MainFrame
+boxedcars.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+boxedcars.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+boxedcars.Position = UDim2.new(0.371191531, 0, 0.833952606, 0)
+boxedcars.Size = UDim2.new(0, 169, 0, 50)
+boxedcars.Font = Enum.Font.SourceSansBold
+boxedcars.Text = "BoxedCars"
+boxedcars.TextColor3 = Color3.new(0.333333, 1, 1)
+boxedcars.TextSize = 14
+boxedcars.MouseButton1Down:connect(function() 
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(508, 3, -1463))
+end)
+ 
+yourplot.Name = "yourplot"
+yourplot.Parent = MainFrame
+yourplot.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+yourplot.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+yourplot.Position = UDim2.new(0.69188118, 0, 0.833952606, 0)
+yourplot.Size = UDim2.new(0, 169, 0, 50)
+yourplot.Font = Enum.Font.SourceSansBold
+yourplot.Text = "YourPlot"
+yourplot.TextColor3 = Color3.new(0.333333, 1, 1)
+yourplot.TextSize = 14
+yourplot.MouseButton1Down:connect(function()
+    for i, v in pairs(game.Workspace.Properties:GetChildren()) do
+        if v.Owner.Value == game.Players.LocalPlayer then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame
+        end
+    end
+end)
+ 
+TextButton_2.Parent = MainFrame
+TextButton_2.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+TextButton_2.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+TextButton_2.Position = UDim2.new(0.906896532, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 54, 0, 58)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "X"
+TextButton_2.TextColor3 = Color3.new(1, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14
+TextButton_2.TextWrapped = true
+
